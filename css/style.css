@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+.database_optimization-title-bar {
+	width: 96%;
+	background-color: #0074a2;
+	color: #FFF !important;
+	display: inline-block;
+	padding-left: 16px;
+	margin-top: 30px;
+}
+.database_optimization-title-bar h2 {
+	color: #FFF;
+}
+.database_optimization-bold {
+	font-weight: 900;
+}
+.database_optimization-normal {
+	font-weight: normal;
+}
+.database_optimization-italic {
+	font-style: italic;
+}
+.database_optimization-blue {
+	/*color: #00F;*/
+	color: #0074a2;
+}
+/* v4.1.9: RUNNING INDICATOR ADDED */
+#database_optimization-running {
+	background: rgba(0,0,0,.08) url('../images/running.gif') no-repeat 50% 50%;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.database_optimization-action {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+.database_optimization-wp-table {
+	font-weight: bold;
+	color: #0074a2;
+}
+.database_optimization-padding-left {
+	padding-left: 8px;
+}
+.database_optimization-border-bottom {
+	border-bottom: solid 1px #999;
+}
+.database_optimization-border-top {
+	border-top: solid 1px #999;
+}
+.database_optimization-optimizing-table {
+	margin-top: 16px;
+}
+.database_optimization-optimized {
+	color: #0074a2;
+	font-weight: bold;
+}
+.database_optimization-underline-red {
+	text-decoration: underline;
+	color: #F00;
+}
+.database_optimization-updated {
+	position: relative;
+	left: -15px;
+}
+.database_optimization-found {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+.database_optimization-found-number {
+	margin-left: 8px;
+	margin-bottom: 18px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+.database_optimization-result-table {
+	background-color: #E8E8E8;
+	margin-bottom: 20px;
+}
+.database_optimization-not-found {
+	margin-left: 8px;
+	margin-bottom: 16px;
+	color: #999;
+}
+.database_optimization-post-type-select {
+	font-size: inherit;
+}
+.database_optimization-schedule-select {
+	font-size: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+.database_optimization-schedulehour {
+	display: none;
+}
+.database_optimization-schedulehour-select {
+	font-size: inherit;
+}
+.database_optimization-table-excludes {
+	margin-top: 10px;
+	border: solid 1px #CCC;
+	padding: 10px;
+}
+.database_optimization-table-excludes td {
+	padding: 3px;
+}
+/********************************************************
+ *
+ *	OPTIONS FORM
+ *
+ ********************************************************/
+#database_optimization-options-tables-container {
+	text-align: center;
+}
+#database_optimization-options-tables-wrapper {
+	width: 97%;
+	display: inline-block;
+	/*border: solid 1px #CCC;*/
+	margin-top: 16px;
+	margin-left: -16px;
+	padding: 8px 0 8px 0;
+}
+.database_optimization-options-table {
+	background-color: #f0f0f0;
+	display: inline-block;
+	height: 17px;
+	margin: 3px;
+	border: solid 1px #E0E0E0;
+	overflow: hidden;
+	padding: 2px;
+	text-align: left;
+	white-space: nowrap;
+	width: 200px;
+}
+/*#database_optimization-options-buttons {
+}*/
